@@ -49,13 +49,14 @@
 	 - [intl](https://www.php.net/manual/en/intl.requirements.php)
 	 - [mbstring](https://www.php.net/manual/en/mbstring.requirements.php)
 	 - [json](https://www.php.net/manual/en/json.requirements.php)
-  - Refer to CodeIgniter documentation (https://codeigniter.com/user_guide/intro/requirements.html)
+     - Refer to CodeIgniter documentation (https://codeigniter.com/user_guide/intro/requirements.html)
  3. Ensure `git` is installed
  4. Ensure `composer` is installed
+ 5. Setup empty database and dedicated user
 
 ## Installation
 
-1. Clone repo: `git clone git@github.com:gbalinon/smarthr.git`
+1. Clone repo: `git clone git@github.com:DOST6/smartgov.git`
 2. Run `composer install`
 3. Copy `env_sample` to `.env` and modify as needed
 4. (Optional) Configure server config (Apache `virtual host` or nginx `server blocks`) as needed
